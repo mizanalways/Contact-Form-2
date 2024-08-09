@@ -1,0 +1,267 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 960px;
+}
+img {
+  max-width: 50%;
+}
+.contact_title {
+  width: 250px;
+  float: left;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-position: -882px;
+  color: #fff;
+  margin-left: 25px;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.back {
+  margin-bottom: 50px;
+  margin-left: -5px;
+}
+.back i{
+  float: left;
+  margin-right: 10px;
+  color: #dff9fb;
+}
+.back i:hover{
+  color: #eb4d4b;
+}
+.back p{
+  float: left;
+  color: #dff9fb;
+}
+.contact_logo i {
+  font-size: 35px;
+  float: left;
+  margin-right: 10px;
+  margin-top: -6px;
+  color: #95afc0;
+}
+.contact_logo i:hover {
+  color: #eb4d4b;  
+}
+.contact_logo h2 {
+  font-size: 15px;
+  float: left;
+  color: #95afc0;
+}
+.social {
+  margin-top: 670px;
+}
+.social_fb {
+  margin-bottom: 20px;
+  color: #95afc0;  
+}
+.social_fb i{
+  float: left;
+  margin-right: 15px;
+  font-size: 25px;
+  margin-top: -3px;
+  text-decoration: none;
+  color: #95afc0;
+}
+.social_fb i:hover {
+  color: #eb4d4b;  
+}
+.social_x {
+  margin-bottom: 20px;
+  color: #95afc0;   
+}
+.social_x i{
+  float: left;
+  margin-right: 15px;
+  font-size: 25px;
+  margin-top: -3px;
+  text-decoration: none;
+  color: #95afc0;
+}
+.social_x i:hover {
+  color: #eb4d4b;  
+}
+.social_linedin {
+  margin-bottom: 20px; 
+  color: #95afc0;   
+}
+.social_linedin i{
+  float: left;
+  margin-right: 15px;
+  font-size: 25px;
+  margin-top: -3px;
+  text-decoration: none;
+  color: #95afc0;  
+}
+.social_linedin i:hover {
+  color: #eb4d4b;  
+}
+.social_ig { 
+  color: #95afc0;   
+}
+.social_ig i{
+  float: left;
+  margin-right: 15px;
+  font-size: 25px;
+  margin-top: -3px;
+  text-decoration: none;
+  color: #95afc0;  
+}
+.social_ig i:hover {
+  color: #eb4d4b;  
+}
+.contact_form {
+  width: 665px;
+  float: right;
+  background: #493D93;
+  color: #95afc0;
+  margin-top: 25px;
+  padding: 30px 80px;
+  border-radius: 20px;
+}
+.contact_input {
+  margin-bottom: 50px;
+}
+.contact_input h1{
+  color: #c7ecee;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.name_input {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.first_name {
+  float: left;
+}
+.first_name label{
+  display: block;
+  color: #95afc0;
+  margin-bottom: 5px;
+}
+.first_name input {
+  width: 240px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+}
+.last_name {
+  float: right;
+}
+.last_name label{
+  display: block;
+  color: #95afc0;  
+  margin-bottom: 5px;  
+}
+.last_name input {
+  width: 240px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+}
+.email_input label {
+  display: block;
+  margin-bottom: 5px; 
+  color: #95afc0;  
+}
+.email_input input {
+  width: 505px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+}
+.email_input {
+  margin-bottom: 20px;
+}
+.team_location {
+  overflow: hidden;
+  margin-bottom: 20px;  
+}
+.team_input {
+  float: left;
+}
+.team_input label {
+  display: block;
+  margin-bottom: 5px; 
+  color: #95afc0
+}
+.team_input select {
+  width: 240px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+}
+.location_input {
+  float: right;
+}
+.location_input label {
+  display: block;
+  margin-bottom: 5px; 
+  color: #95afc0
+}
+.location_input select {
+  width: 240px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+}
+.contact_message {
+  margin-bottom: 20px;  
+}
+.contact_message label{
+  display: block;
+  margin-bottom: 5px; 
+  color: #95afc0
+}
+.contact_message textarea{
+  width: 505px;
+  height: 150px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+}
+.checkbox {
+  margin-bottom: 40px;
+}
+.checkbox input {
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+  margin-top: 2px;
+}
+.checkbox a {
+ color: #95afc0;
+}
+.btn input {
+  background: #c7ecee;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E2;
+  color: #2C225F;
+  font-weight: bold;
+  width: 505px;
+  cursor: pointer;
+}
+.btn input:hover {
+  background: #eb4d4b;
+}
+.promotion {
+  width: 505px;
+  margin-top: 50px;
+}
+.promotion img {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.freelancer {
+  margin-top: -6px;
+}
+
+
